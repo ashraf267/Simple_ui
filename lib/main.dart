@@ -52,6 +52,55 @@ void main() => runApp(MaterialApp(
                                 ),
                               ),
                             ),
+                            SizedBox(height: 25.0),
+                            Row(
+                              children: [
+                                Container(
+                                  margin: EdgeInsets.all(10.0),
+                                  child: FlatButton(
+                                    onPressed: () {},
+                                    color: Colors.black,
+                                    child: Padding(
+                                      padding: EdgeInsets.fromLTRB(
+                                          25.0, 15.0, 25.0, 15.0),
+                                      child: Text(
+                                        'Sign up',
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          letterSpacing: 1.0,
+                                          fontSize: 17.0,
+                                          fontFamily: 'OpenSans',
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 90.0,
+                                ),
+                                Container(
+                                  child: FlatButton(
+                                    onPressed: () {},
+                                    color: Colors.white,
+                                    child: Padding(
+                                      padding: EdgeInsets.fromLTRB(
+                                          25.0, 15.0, 25.0, 15.0),
+                                      child: Text(
+                                        'Log in',
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 17.0,
+                                          letterSpacing: 1.0,
+                                          fontWeight: FontWeight.bold,
+                                          fontFamily: 'OpenSans',
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ],
                         ),
                       ),
